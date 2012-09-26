@@ -3,7 +3,7 @@ Zimbra Purge &mdash; Schedule Zimbra email purges
 
 Previous to Zimbra 8 you could not specify individual folder retention policies. This script addresses that shortcoming by purging emails according to your specifications. It relies upon the [Zimbra query language](http://www.zimbra.com/desktop/help/en_US/Search/query_language_description.htm).
 
-I have not tried this on Zimbra 8. When I get there I will update this description with my findings unless someone else wishes to offer their experience with the new folder retention policy.
+I have not tried this on Zimbra 8. When I get there I will update this description with my findings unless someone else wishes to offer their experience with the new folder retention policy. 
 
 ##Requirements
 
@@ -26,7 +26,7 @@ sudo gem install texp
 
 ##Note
 
-In Zimbra 8, you can now configure per folder/tag retention policies both individually and as an administrator. I post this script here in case someone is stuck at 7 and needs the ability to purge individual folders.
+In Zimbra 8, you can now configure per folder/tag retention policies both individually and as an administrator. I post this script here in case someone is stuck at 7 and needs the ability to purge individual folders or queries.
 
 ##Usage
 
